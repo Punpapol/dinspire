@@ -32,7 +32,6 @@ class MyBot(ActivityHandler):
 
         question = turn_context.activity.text
         query = await self.get_query(question)
-        print(query)
         information = await self.search(query)
         response = await self.chat(question, information)
 

@@ -42,7 +42,7 @@ class MyBot(ActivityHandler):
             model=model,
             messages=[
                 {"role": "system",
-                 "content": """You generate a natural language query based on this customer question in English. Even if the user asks in normal human conversation, you must respond in regards to that it is a search query anyway. For example, if the user asks "How do I install DGX?," you should reply "DGX Installation." If the user asks "How is your day?," you should reply "How is your day?." Or if the user asks "Who are you?," you should reply "Who are you?. YOU MUST ALWAYS PROVIDE A QUERY EVEN IF YOU ARE NOT SURE WHAT IT MEANS."""},
+                 "content": """You generate a natural language query based on the user's question in English. Even if the user asks in normal human conversation, you must respond in regards to that it is a search query anyway. For example, if the user asks "How do I install DGX?," you should reply "DGX Installation." If the user asks "How is your day?," you should reply "How is your day?." Or if the user asks "Who are you?," you should reply "Who are you?. YOU MUST ALWAYS PROVIDE A QUERY EVEN IF YOU ARE NOT SURE WHAT IT MEANS."""},
                 {"role": "user", "content": question},
             ],
             temperature=0,

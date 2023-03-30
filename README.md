@@ -1,6 +1,6 @@
 # Azure Web App Configuration General Settings
 
-Startup Command: gunicorn --bind 0.0.0.0 --worker-class aiohttp.worker.GunicornWebWorker  app:app
+Startup Command: `gunicorn --bind 0.0.0.0 --worker-class aiohttp.worker.GunicornWebWorker app:app`
 
 # Python Configuration
 

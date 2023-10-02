@@ -75,7 +75,7 @@ pyjwt[crypto]==2.6.0
     # via
     #   botframework-connector
     #   msal
-requests==2.28.2
+requests==2.31.0
     # via
     #   -r requirements.in
     #   botbuilder

@@ -29,7 +29,7 @@ botframework-connector==4.14.3
     #   botframework-streaming
 botframework-streaming==4.14.3
     # via botbuilder-core
-certifi==2022.12.7
+certifi==2023.7.22
     # via
     #   msrest
     #   requests
@@ -39,8 +39,6 @@ charset-normalizer==3.1.0
     # via
     #   aiohttp
     #   requests
-colorama==0.4.6
-    # via tqdm
 cryptography==40.0.1
     # via
     #   msal
